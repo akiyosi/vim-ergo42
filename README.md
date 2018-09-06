@@ -1,8 +1,25 @@
 # vim-ergo42
-The ergo42 keymap for the vim user. The keymap are still under development.
+The ergo42 keymap for the vim user. 
 
+
+# Basic keymap
+
+```
+ ,------------------------------------------------.   ,------------------------------------------------.
+ | ESC  |   Q  |   W  |   E  |   R  |  T   | Del  |   | Bksp |  Y   |   U  |   I  |   O  |   P  |  \ | |
+ |------+------+------+------+------+------+------|   |-------------+------+------+------+------+------|
+ | Tab  |   A  |   S  |   D  |   F  |  G   | Meta |   |  :   |  H   |   J  |   K  |   L  | Entr |  [   |
+ |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
+ | LSft | LCTL |   Z  |   X  |   C  |  V   | Symb |   |  /   |  B   |   N  |   M  |   ,  |   .  |  ]   |
+ |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
+ |      |      |      | LALT | LGUI | HENK | MHEN |   | Spce |  @   |   `  |   '  |   -  |   =  | _ \  |
+ `------------------------------------------------'   `------------------------------------------------'
+```
 
 # Usage
 1. Clone this repository to `/path/to/qmk_firmware/keyboards/ergo42/keymaps/`
 1. Change the current directory to `/path/to/qmk_firmware`
 1. `make ergo42:vim-ergo42:avrdude`
+
+
+
