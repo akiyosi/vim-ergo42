@@ -32,19 +32,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,------------------------------------------------.   ,------------------------------------------------.
    * | ESC  |   Q  |   W  |   E  |   R  |  T   | Del  |   | Bksp |  Y   |   U  |   I  |   O  |   P  |  \ | |
    * |------+------+------+------+------+------+------|   |-------------+------+------+------+------+------|
-   * | Tab  |   A  |   S  |   D  |   F  |  G   | Meta |   |  :   |  H   |   J  |   K  |   L  |Enter |  [   |
+   * | LCTL  |   A  |   S  |   D  |   F  |  G  | Meta |   |  :   |  H   |   J  |   K  |   L  | Entr |  [   |
    * |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
-   * | LSft | LCTL |   Z  |   X  |   C  |  V   | Symb |   |  /   |  B   |   N  |   M  |   ,  |   .  |  ]   |
+   * | LSft |   Z  |   X  |   C  |  V   |  B   | Symb |   |  /   |   N  |   M  |   ,  |   .  | RCTL |  ]   |
    * |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
-   * |      |      |      | LALT | LGUI | Eisu | Kana |   |Space |  @   |   `  |   '  |   -  |   =  | _ \  |
+   * | Tab  |      |      | LALT | LGUI | Eisu | Kana |   |Space |  @   |   `  |   '  |   -  |   =  | _ \  |
    * `------------------------------------------------'   `------------------------------------------------'
    */   
   [BASE] = LAYOUT( \
     KC_ESC,   KC_Q,     KC_W,    KC_E,    KC_R,     KC_T,     KC_DELT,         KC_BSPC, KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,      JA_ENVL,  \
-    KC_TAB,  KC_A,     KC_S,    KC_D,    KC_F,     KC_G,     MO(META),          JA_CLON, KC_H,    KC_J,    KC_K,    KC_L,   KC_ENT,    JA_LBRC,  \
-    KC_LSFT,  KC_LCTL,	KC_Z,     KC_X,    KC_C,    KC_V,     MO(SYMB),        KC_SLSH, KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,    JA_RBRC, \
+    KC_LCTL,  KC_A,     KC_S,    KC_D,    KC_F,     KC_G,     MO(META),          JA_CLON, KC_H,    KC_J,    KC_K,    KC_L,   KC_ENT,    JA_LBRC,  \
+    KC_LSFT,  KC_Z,     KC_X,    KC_C,    KC_V,     MO(SYMB),        KC_SLSH, KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,   KC_RCTL,   JA_RBRC, \
     /* XXXXXXX, XXXXXXX,  XXXXXXX, KC_LALT, KC_LGUI,  KC_LANG1, KC_LANG2,        KC_SPC,  JA_AT,   KC_GRV,  JA_SQUOT, KC_MINS, JA_EQL,  JA_ENUN   \  for MAC */
-    XXXXXXX, XXXXXXX,  XXXXXXX, KC_LALT, KC_LGUI,  JA_HENK, JA_MHEN,        KC_SPC,  JA_AT,   KC_GRV,  JA_SQUOT, KC_MINS, JA_EQL,  JA_ENUN   \
+    KC_TAB, XXXXXXX,  XXXXXXX, KC_LALT, KC_LGUI,  JA_HENK, JA_MHEN,        KC_SPC,  JA_AT,   KC_GRV,  JA_SQUOT, KC_MINS, JA_EQL,  JA_ENUN   \
   ),
 
   /* MET
