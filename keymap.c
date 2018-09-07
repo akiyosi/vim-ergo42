@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
   [SYMB] = LAYOUT( \
     _______, S(KC_1), KC_AT, S(KC_3), S(KC_4), S(KC_5),   _______,     KC_HOME, JA_ANP, JA_HAT, S(KC_QUOT), S(KC_8), S(KC_9), KC_INSERT, \
-    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,     KC_END, LGUI(LCTL(KC_LEFT)), XXXXXXX, XXXXXXX, LGUI(LCTL(KC_RGHT)),  _______,  KC_MENU, \
+    _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,     KC_END, LGUI(LCTL(KC_LEFT)), XXXXXXX, XXXXXXX, LGUI(LCTL(KC_RGHT)),  _______,  S(KC_F10), \
     _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,     _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC_PSCREEN, \
     _______, _______, _______, _______, _______, _______, _______,     _______, _______, _______, _______, _______, _______,  _______ \
   )
